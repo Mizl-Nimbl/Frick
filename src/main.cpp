@@ -1,6 +1,7 @@
-#include <iostream>
+#include "headers/extern.hpp"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+int main(int argc, char * argv[])
+{
+    displaybootsplash();
     return 0;
 }
